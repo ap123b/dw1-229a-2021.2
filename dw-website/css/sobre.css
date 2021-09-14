@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    padding-top: 1px;
+    margin-top: -1px;
+}
+
+nav {
+    background-color: #23232E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+}
+
+#titulo {
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 30px;
+}
+
+#part_1 {
+    background: -webkit-linear-gradient(360deg, red, orange, yellow, green, aqua, blue, blueviolet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#links {
+    list-style: none;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    margin-right: -125px;
+}
+
+#links li {
+    margin-left: 10px;
+}
+
+#links li a {
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #3D3145;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+#links li a:hover:not(active) {
+    background-color: #A328FA;
+}
+
+#conteudo {
+    margin-left: 50vh;
+    margin-top: 100px;
+}
+
+#box_membros {
+    list-style: none;
+    justify-content: center;
+    width: 50%;
+    display:flex;
+    margin-right: 110px;
+}
+
+#box_membros li {
+    margin-left: 20px;
+}
+
+#box_membros li img {
+    height: 100px;
+    width: auto;
+}
+
+.membro {
+    display: grid;
+    place-items: center;
+    text-align: justify;
+    width: 50vh;
+    margin-left: 50px;
+}
+
+#titulo_pagina {
+    margin-top: 100px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 35vh;
+}
