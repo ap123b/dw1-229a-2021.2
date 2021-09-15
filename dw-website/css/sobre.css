@@ -126,6 +126,16 @@ nav {
     width: auto;
 }
 
+#foto-membro-defeituoso {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+    object-position: 720px 516px;
+}
+
 .nome-membro {
     text-align: center;
     text-transform: uppercase;
