@@ -40,7 +40,7 @@ nav {
     justify-content: center;
     width: 50%;
     display: flex;
-    margin-right: -125px;
+    margin-right: -100px;
 }
 
 #links li {
@@ -65,36 +65,83 @@ nav {
     margin-top: 100px;
 }
 
-#box_membros {
+#titulo_pagina {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    width: 200px;
+    height: 100px;
+    top: 30%;
+    left: 45%;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+
+#titulo_orientador {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    width: 200px;
+    height: 100px;
+    top: 70%;
+    left: 45%;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+
+#box-membros {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: auto;
+    width: 1000px;
+    top: 35%;
+    left: 36%;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+
+#lista-membros {
     list-style: none;
     justify-content: center;
-    width: 50%;
-    display:flex;
-    margin-right: 110px;
+    display: flex;
 }
 
-#box_membros li {
-    margin-left: 20px;
+#lista-membros li {
+    margin-left: 60px;
+    display: inline-block;
 }
 
-#box_membros li img {
+.foto-membro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 100px;
     width: auto;
 }
 
-.membro {
-    display: grid;
-    place-items: center;
-    text-align: justify;
-    width: 50vh;
-    margin-left: 50px;
+.nome-membro {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline;
 }
 
-#titulo_pagina {
-    margin-top: 100px;
-    font-size: 20px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: black;
-    margin-left: 35vh;
+.desc-membro {
+    text-align: center;
+}
+
+#orientador {
+    position: absolute;
+    height: 400px;
+    width: 1000px;
+    top: 75%;
+    left: 23%;
+    margin-left: -150px;
+    margin-top: -100px;
 }
