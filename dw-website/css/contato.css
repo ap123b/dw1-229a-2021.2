@@ -1,5 +1,9 @@
 
 
+body {
+  overflow:scroll;
+}
+
 #box {
     margin: 30vh; 
     background-color: black;
