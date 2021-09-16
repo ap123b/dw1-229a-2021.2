@@ -1,0 +1,33 @@
+body  {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    padding: 15vh;
+}
+
+h2 {
+    font-family: Rubik One;
+    font-size: 64px;
+    line-height: 79px;
+    line-height: 100%;
+    text-align: left;
+    Vertical-align: Top;
+}
+
+#conteudo {
+    position: absolute;
+    bottom: 30vh;
+    font-size: 24px;   
+}
+
+#title-1{
+    color: #25FF89;
+}
+
+#title-2{
+    color: white;
+}
