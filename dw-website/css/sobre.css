@@ -6,6 +6,7 @@
 }
 
 body {
+    background-color: #23232E;
     overflow: hidden;
     padding-top: 1px;
     margin-top: -1px;
@@ -133,7 +134,7 @@ nav {
     height: 100px;
     width: auto;
     object-fit: cover;
-    object-position: 720px 516px;
+    /*object-position: 720px 516px;*/
 }
 
 .nome-membro {
