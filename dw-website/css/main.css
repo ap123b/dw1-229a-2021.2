@@ -6,10 +6,11 @@
 }
 
 body {
-    background-color: #23232E;
+    background-color: #363145;
     overflow: hidden;
     padding-top: 1px;
     margin-top: -1px;
+    font-size: 14px;
 }
 
 nav {
