@@ -1,18 +1,9 @@
-/* Conteúdo do Body */
 #conteudo {
     position: relative;
     margin: 15vh;
+    display: flex;
 }
-/* FIM */
-/*
-*
-*
-*
-*
-*
-*
-*/
-/* Título */
+
 h2 {
     font-family: Rubik One;
     font-size: 64px;
@@ -29,19 +20,9 @@ h2 {
 #titulo-2{
     color: white;
 }
-/* FIM */
-/*
-*
-*
-*
-*
-*
-*
-*/
-/* Texto */
+
 #texto {
     color: white;
     bottom: 30vh;
     font-size: 24px;   
 }
-/* FIM */
