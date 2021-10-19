@@ -1,129 +1,94 @@
-.font-robo {
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-}
-  
-.font-poppins {
-    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+/*Conteúdo*/
+#conteudo {
+    position: relative;
+    margin: 15vh;
 }
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    border: 0;
+#box {
+    min-height: 100vh;
+}
+
+#conteudo-sobre-nos {
+    width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
     margin: 0;
 }
 
-body {
-    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
-    background-color: #363145;
-    overflow: hidden;
-    padding-top: 1px;
-    margin-top: -1px;
+.conteudo-titulo {
+    color: #25FF89;
+    font-size: 40px;
 }
 
-#conteudo {
-    margin-left: 50vh;
+#conteudo-sobre-nos p {
+    color: white;
+    font-size: 20px;
+}
+/* FIM */
+/*
+*
+*
+*
+*
+*
+*
+*/
+/*Membro com foto a esquerda*/
+.membro-esquerda {
     margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #111111;
 }
 
-#titulo_pagina {
-    position: absolute;
-    font-size: 20px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    text-align: center;
+.membro-esquerda img {
+    float: left; 
+    height: 300px;
+    width: auto; 
+}
+
+.membro-esquerda p {
+    float: left;
+    margin-left: 20px;
+    width: 500px;
     color: white;
-    width: 200px;
-    height: 100px;
-    top: 30%;
-    left: 45%;
-    margin-top: -100px;
-    margin-left: -50px;
+}
+/* FIM */
+/*
+*
+*
+*
+*
+*
+*
+*/
+/*Membro com foto a direita*/
+.membro-direita {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #111111;
 }
 
-#titulo_orientador {
-    position: absolute;
-    font-size: 20px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-    width: 200px;
-    height: 100px;
-    top: 70%;
-    left: 45%;
-    margin-top: -100px;
-    margin-left: -50px;
-}
-
-#box-membros {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    height: auto;
-    width: 1000px;
-    top: 35%;
-    left: 36%;
-    margin-left: -150px;
-    margin-top: -100px;
-}
-
-#lista-membros {
-    list-style: none;
-    justify-content: center;
-    display: flex;
-}
-
-#lista-membros li {
-    margin-left: 60px;
-    display: inline-block;
-}
-
-.foto-membro {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
+.membro-direita img {
+    float: right;
+    height: 300px;
     width: auto;
 }
 
-#foto-membro-defeituoso { /*FOI O LUCIANO QUE ESCREVEU ISSO SOBRE ELE MESMO*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    width: auto;
-    object-fit: cover;
-    /*object-position: 720px 516px;*/
-}
-
-.nome-membro {
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: overline;
+.membro-direita p {
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+    width: 500px;
     color: white;
 }
 
-.desc-membro {
-    text-align: center;
+.membro-direita a {
     color: white;
 }
 
-#orientador {
-    position: absolute;
-    height: 400px;
-    width: 1000px;
-    top: 75%;
-    left: 23%;
-    margin-left: -150px;
-    margin-top: -100px;
+.membro-direita a:hover:not(active) {
+    color: grey;
 }
-
-#orientador a {
-    color: white;
-}
-
-li > ol,
-li > ul {
-    margin-bottom: 0;
-}
+/* FIM */

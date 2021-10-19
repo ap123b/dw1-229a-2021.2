@@ -1,28 +1,59 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    border: 0;
-    margin: 0;
+/* Fontes */
+.font-robo {
+    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
 }
-
+  
+.font-poppins {
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+/* FIM */
+/*
+*
+*
+*
+*
+*
+*
+*/
+/* Body*/
 body {
-    background-color: #363145;
-    overflow: hidden;
-    padding-top: 1px;
-    margin-top: -1px;
-    font-size: 14px;
-}
-
-nav {
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
     background-color: #23232E;
+}
+/*
+*
+*
+*
+*
+*
+*
+*/
+/* FIM */
+/* Barra de navegação */
+nav {
+    z-index: 999;
+    background-color: #111111;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 8vh;
     width: 100%;
     position: fixed;
+    top: 0px;
 }
-
+/* FIM */
+/*
+*
+*
+*
+*
+*
+*
+*/
+/* Título na barra de navegação */
 #titulo {
     font-size: 20px;
     letter-spacing: 5px;
@@ -31,12 +62,21 @@ nav {
     margin-left: 30px;
 }
 
-#part_1 {
+#colorido {
     background: -webkit-linear-gradient(360deg, red, orange, yellow, green, aqua, blue, blueviolet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+/* FIM */
+/*
+*
+*
+*
+*
+*
+*
+*/
+/* Links */
 #links {
     list-style: none;
     justify-content: center;
@@ -52,17 +92,99 @@ nav {
 #links li a {
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #3D3145;
+    background-color: #332E30;
     border-radius: 10px;
     letter-spacing: 3px;
     color: white;
 }
 
 #links li a:hover:not(active) {
-    background-color: #A328FA;
+    background-color: #332424;
 }
-
-#title {
+/*FIM*/
+/*
+*
+*
+*
+*
+*
+*
+*/
+/* Footer */
+footer{
+    z-index: 999;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    display: inline-block;
+    margin-top: auto;
+    color: white;
+}
+/* FIM */
+/*
+*
+*
+*
+*
+*
+*
+*/
+/* Conteúdo do Footer */
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    
 }
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+/* FIM */
+/*
+*
+*
+*
+*
+*
+*
+*/
+/* Redes sociais do footer*/
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .1s ease;
+
+}
+.socials a:hover i{
+    color: grey;
+}
+/* FIM */
